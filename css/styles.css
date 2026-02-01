@@ -1357,10 +1357,7 @@ footer {
 .news-page .container {
     background: transparent !important;
 }
-/* ================================
-   NEWS PAGE FOOTER GLASS
-================================ */
-
+/* NEWS PAGE FOOTER GLASS */
 .news-page footer {
     background: rgba(10, 14, 26, 0.8) !important;
     backdrop-filter: blur(6px);
@@ -1371,6 +1368,12 @@ footer {
 .news-page footer .footer-content {
     background: transparent !important;
 }
+/* NEWS PAGE HERO BACKGROUND */
+.news-page .news-hero {
+    background: rgba(10, 14, 26, 0.8);
+    backdrop-filter: blur(4px);
+}
+
 
 
 
