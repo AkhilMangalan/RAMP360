@@ -1364,6 +1364,19 @@ footer {
     min-height: 220px !important; /* was 400px */
     padding: 40px 0;
 }
+/* Reduce footer height on News page */
+.news-page footer {
+    padding: 40px 0 !important;   /* was large */
+}
+
+.news-page footer .footer-content {
+    margin-bottom: 20px !important;
+}
+
+.news-page footer .footer-bottom {
+    margin-top: 10px !important;
+}
+
 
 
 
