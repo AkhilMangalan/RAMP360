@@ -1357,5 +1357,20 @@ footer {
 .news-page .container {
     background: transparent !important;
 }
+/* ================================
+   NEWS PAGE FOOTER GLASS
+================================ */
+
+.news-page footer {
+    background: rgba(10, 14, 26, 0.8) !important;
+    backdrop-filter: blur(6px);
+    border-top: 1px solid rgba(114, 191, 68, 0.25);
+}
+
+.news-page footer .container,
+.news-page footer .footer-content {
+    background: transparent !important;
+}
+
 
 
