@@ -1333,46 +1333,31 @@ footer {
 
 }
 /* =====================================
-   NEWS PAGE GLASS TRANSPARENCY ONLY
+   NEWS PAGE PURE GLASS (NO BLUE TINT)
 ===================================== */
 
-.news-page .hero,
 .news-page .news-hero {
-    background: rgba(10, 14, 26, 0.8) !important;
-    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(6px);
 }
 
 .news-page .news-card {
-    background: rgba(10, 14, 26, 0.8) !important;
-    border: 1px solid rgba(114, 191, 68, 0.25);
-    backdrop-filter: blur(6px);
+    background: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
 }
 
 .news-page footer {
-    background: rgba(10, 14, 26, 0.8) !important;
-    backdrop-filter: blur(6px);
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(8px);
 }
 
+.news-page footer .container,
 .news-page .section,
 .news-page .container {
     background: transparent !important;
 }
-/* NEWS PAGE FOOTER GLASS */
-.news-page footer {
-    background: rgba(10, 14, 26, 0.8) !important;
-    backdrop-filter: blur(6px);
-    border-top: 1px solid rgba(114, 191, 68, 0.25);
-}
 
-.news-page footer .container,
-.news-page footer .footer-content {
-    background: transparent !important;
-}
-/* NEWS PAGE HERO BACKGROUND */
-.news-page .news-hero {
-    background: rgba(10, 14, 26, 0.8);
-    backdrop-filter: blur(4px);
-}
 
 
 
