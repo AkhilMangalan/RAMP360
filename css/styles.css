@@ -1348,7 +1348,7 @@ footer {
 }
 
 .news-page footer {
-    background: rgba(255, 255, 255, 0.1) !important;
+    background: rgba(255, 255, 255, 0) !important;
     backdrop-filter: blur(8px);
 }
 
@@ -1375,6 +1375,19 @@ footer {
 
 .news-page footer .footer-bottom {
     margin-top: 10px !important;
+}
+
+/* ================================
+   NEWS PAGE TRANSPARENT NAV
+================================ */
+.news-page nav {
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.news-page nav.scrolled {
+    background: rgba(255, 255, 255, 0.25) !important;
 }
 
 
