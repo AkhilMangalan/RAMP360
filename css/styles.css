@@ -1381,14 +1381,31 @@ footer {
    NEWS PAGE TRANSPARENT NAV
 ================================ */
 .news-page nav {
-    background: rgba(255, 255, 255, 0.15) !important;
+    background: rgba(255, 255, 255, 0) !important;
     backdrop-filter: blur(6px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .news-page nav.scrolled {
-    background: rgba(255, 255, 255, 0.25) !important;
+    background: rgba(255, 255, 255, 0) !important;
 }
+/* ================================
+   NEWS PAGE REMOVE GLASS
+================================ */
+.news-page .news-hero,
+.news-page .news-card,
+.news-page footer {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border: none !important;
+}
+
+.news-page .section,
+.news-page .container,
+.news-page footer .container {
+    background: transparent !important;
+}
+
 
 
 
