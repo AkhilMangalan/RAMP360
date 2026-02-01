@@ -1358,6 +1358,13 @@ footer {
     background: transparent !important;
 }
 
+/* Reduce News Hero Height */
+.news-page .news-hero {
+    height: 32vh !important;   /* was 50vh */
+    min-height: 220px !important; /* was 400px */
+    padding: 40px 0;
+}
+
 
 
 
